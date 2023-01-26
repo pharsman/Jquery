@@ -1,0 +1,149 @@
+body{
+    background: #727272;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px
+}
+#click {
+    background-color: red;
+    position: absolute;
+    margin-top: 0px;
+}
+#double-clicks {
+    background-color: rgb(146, 146, 2);
+    position: absolute;
+    margin-top: 60px;
+}
+#mouse-enter {
+    position: absolute;
+    background-color: green;
+    margin-top: 120px;
+}
+#mouse-leave {
+    position: absolute;
+    background-color: rgb(0, 114, 114);
+    margin-top: 180px;
+}
+#mouse-down {
+    position: absolute;
+    background-color: brown;
+    margin-top: 240px;
+}
+#mouse-up {
+    position: absolute;
+    background-color: coral;
+    margin-top: 300px;
+}
+#hover {
+    position: absolute;
+    background-color: deeppink;
+    margin-top: 360px;
+}
+#focus {
+    position: absolute;
+    background-color: aqua;
+    border: 0;
+    outline: none;
+    margin-top: 420px;
+    padding: 10px;
+}
+#blur {
+    position: absolute;
+    background-color: purple;
+    border: 0;
+    outline: none;
+    margin-top: 460px;
+    padding: 10px;
+
+}
+#focus-blur {
+    position: absolute;
+    background-color: green;
+    border: 0;
+    outline: none;
+    margin-top: 500px;
+    padding: 10px;
+
+}
+::placeholder{
+    color: black;
+}
+
+.click-or-move{
+    margin-top: 550px;
+    width: 600px;
+    display: inline-block;
+}
+
+#hide-show{
+    width: 70%;
+    background-color: #555555;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    h2{
+        color: #ffffff;
+    }
+    
+}
+#child{
+    height: 150px;
+    width: 70%;
+    background-color: #555555;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    display: none;
+    
+    h2{
+        color: #ffffff;
+    }
+}
+
+#animate{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    background-color: yellow;
+}
+
+#panel{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 640px;
+    background-color: green;
+    display: none;
+}
+
+#stop{
+    position: absolute;
+    top: 600px;
+    left: 60px;
+}
+
+#start{
+    position: absolute;
+    top: 600px;
+}
+
+.chaning{
+    border: 2px solid #000000 ;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 650px;
+    left: 400px;
+}
